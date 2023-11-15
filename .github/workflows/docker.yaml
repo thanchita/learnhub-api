@@ -6,11 +6,11 @@ jobs:
   hello-world:
     runs-on: ubuntu-latest
     steps:
-      - name: Echo hello-world
+      - name: Print out hello-world
         run: echo "Hello, world."
-      - name: Wru
+      - name: Print out current directory
         run: pwd
-      - name: Check out
+      - name: Check out repository
         uses: actions/checkout@v3
-      - name: Wwh
+      - name: list files and directory
         run: ls
